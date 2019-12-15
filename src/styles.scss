@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+.is-not-valid {
+  border-color: red;
+  -webkit-transition: border-color 1000ms linear;
+  -ms-transition: border-color 1000ms linear;
+  transition: border-color 1000ms linear;
+}
+
+.invalid-message {
+  color: red;
+  background-color: rgb(255, 244, 244);
+  position: relative;
+  left: 0.5rem;
+  top: -0.75rem;
+}
